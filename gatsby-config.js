@@ -6,5 +6,7 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-client-side-redirect` // keep it in last in list
+  ],
 }
